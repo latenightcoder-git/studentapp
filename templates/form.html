@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add Student</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light p-5">
+    <div class="container bg-white rounded p-4 shadow">
+    <h3 class="text-primary mb-4">➕ Add New Student</h3>
+    <form method="POST">
+        <div class="row">
+        <div class="col-md-4 mb-3">
+            <label>Name</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label>Address</label>
+            <input type="text" name="address" class="form-control" required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label>Email</label>
+            <input type="email" name="email" class="form-control" required>
+        </div>
+        </div>
+        <h5 class="mt-4">📘 Subject Info</h5>
+        <div class="row">
+        <div class="col-md-4 mb-3">
+            <label>Subject Name</label>
+            <input type="text" name="sub_name" class="form-control" required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label>Author</label>
+            <input type="text" name="author" class="form-control" required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control" required>
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="/" class="btn btn-secondary">Cancel</a>
+    </form>
+    </div>
+</body>
+</html>
